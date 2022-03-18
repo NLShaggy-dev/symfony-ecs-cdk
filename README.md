@@ -1,8 +1,13 @@
-# Welcome to your CDK TypeScript project!
+# Symfony ECS App for bradlatham.com
 
-This is a blank project for TypeScript development with CDK.
+This is a php Symfony App that runs on ECS and infrastructure is setup by AWS CDK. The app also offers local testing with docker compose to visualize changes.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This was done with a tutroial provided on [medium](https://medium.com/wiiisdom-labs/build-and-deploy-a-symfony-application-on-aws-using-cdk-ecs-and-rds-ec8c85465af6) and has it's own repo on [github](https://github.com/wiiisdom/symfony-cdk-example)
+
+
+## Local testing
+
+Local testing of changes can be done with docker compose. as long as you have docker and docker compose installed you can pull the repo down, run `docker-compose up --build` in the root directory of the project, and go to `localhost:8000` to view
 
 ## Useful commands
 
